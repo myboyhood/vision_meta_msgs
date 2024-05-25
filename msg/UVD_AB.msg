@@ -1,0 +1,9 @@
+time timestamp
+uint16[] id
+UV_float32[] uv_A
+UV_float32[] uv_B
+Point[] f_inC_A
+UV_float32[] uv_A_remote
+UV_float32[] uv_B_remote
+Point[] f_inC_A_remote
+float32 track_quality

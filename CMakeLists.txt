@@ -21,6 +21,9 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  UV_AB.msg
+  UVD_AB.msg
+  Point.msg
   UV_float32.msg
   UV_uint16.msg
   UVSets.msg
@@ -38,7 +41,6 @@ generate_messages(
   nav_msgs 
   geometry_msgs
   sensor_msgs
-  
 )
 
 
